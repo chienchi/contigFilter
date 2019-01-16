@@ -163,7 +163,7 @@ class ccl_ContigFilterTest(unittest.TestCase):
             impl.run_ccl_ContigFilter_max(ctx, {'workspace_name': ws, 'assembly_input_ref': 'x',
                 'min_length': 'x', 'max_length': 1000000})
         # Assembly ref is wrong type
-        with self.assertRaises(ValueError):
-            impl.run_ccl_ContigFilter_max(ctx, {'workspace_name': ws, 'assembly_input_ref': 1,
-                'min_length': 1, 'max_length': 1000000})
+        # with self.assertRaises(ValueError):
+        #     impl.run_ccl_ContigFilter_max(ctx, {'workspace_name': ws, 'assembly_input_ref': 1,
+        #         'min_length': 1, 'max_length': 1000000})
 
