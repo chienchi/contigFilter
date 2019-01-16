@@ -1,9 +1,9 @@
 #
 # define display information
 #
-name: Filter Contigs
+name: CCL Filter Contigs
 tooltip: |
-    Filters the contigs by removing contigs below a length threshold
+    Filters the contigs by removing contigs by a length threshold (min/max)
 screenshots: []
 
 icon: null
